@@ -1,6 +1,9 @@
-﻿## Catsay
+## Catsay
 >Catsay is a CLI application, like [cowsay](https://github.com/schacon/cowsay) but written in Python.
 When you invoke catsay, a smol catto will greet you with a quote. The quotes are converted to lolcat, by making use of a [scraper](https://gist.github.com/thisisjustinm/bfcc14f04ea1f55d15e0ef44be6f483f). And no, the name is not in Pig Latin.
+
+### Installation
+Go to directory in which setup.py is present and run ```python setup.py install```.
 
 ### Usage
 ```ben@root:~$ catsay```
