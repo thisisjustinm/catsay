@@ -6,7 +6,7 @@ When you invoke catsay, a smol catto will greet you with a quote. The quotes are
 Go to directory in which setup.py is present and run ```python setup.py install```.
 
 ### Usage
-```ben@root:~$ catsay```
+```justin@root:~$ catsay```
 
 ```
 ┌────────────────────────────────────┐
@@ -26,7 +26,7 @@ Go to directory in which setup.py is present and run ```python setup.py install`
 
 ### Extra
 
-* Use -h flag for help
+* Use ```-h``` flag for help
     ```
         usage: catsay [-h] [-a] [-m]
         Make cats say stuff.
@@ -35,6 +35,6 @@ Go to directory in which setup.py is present and run ```python setup.py install`
           -a , --animal    change the animal | default : catto
           -m , --myquote   make animal say your quote
     ```
- * Use -a flag to change animal (choose from ```birb``` and ```doge```)
- * Use -m flag to make the animal say anything you want
+ * Use ```-a``` flag to change animal (choose from ```birb``` and ```doge```)
+ * Use ```-m``` flag to make the animal say anything you want
 
