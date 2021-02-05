@@ -14,7 +14,7 @@ setup(
     install_requires=['beautifulsoup4', 'drawtable', 'soupsieve', 'argparse', 'termcolor', 'requests'],
     entry_points={
         'console_scripts': [
-            'catsay = catsay.main:main',
+            'catsay = .catsay.main:main',
         ],
     }
 )
