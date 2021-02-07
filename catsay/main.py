@@ -5,8 +5,8 @@ import urllib3
 from bs4 import BeautifulSoup
 from drawtable import Table
 # from termcolor import colored  #print(colored('hello', 'red'), colored('world', 'green'))
-from animals import doge, catto, birb
-from quotes import ret_random_quote
+from .animals import doge, catto, birb
+from .quotes import ret_random_quote
 
 tb = Table(margin_x=1, margin_y=1, align='left', max_col_width=40)
 parser = argparse.ArgumentParser(description='Make cats say stuff.')
