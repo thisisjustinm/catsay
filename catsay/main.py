@@ -13,7 +13,7 @@ animal_choices_dic = {'cat': 'cat[0]', 'dog': 'dog[0]', 'duck': 'duck[0]', 'came
 
 tb = Table(margin_x=1, margin_y=1, align='left', max_col_width=40)
 parser = argparse.ArgumentParser(description='Make cats say stuff.')
-parser.add_argument('-a', '--animal', help='change the animal | default : catto', metavar='', choices=animal_choices)
+parser.add_argument('-a', '--animal', help='change the animal | default : catto', metavar='', choices=animal_choices_list)
 parser.add_argument('-q', '--quote', help='make animal say your quote', metavar='')
 args = parser.parse_args()
 
