@@ -7,7 +7,7 @@ from drawtable import Table
 # from termcolor import colored  #print(colored('hello', 'red'), colored('world', 'green'))
 from .animals import *
 from .quotes import ret_random_quote
-
+nam = ''
 animal_choices = ['cat','dog','duck','camel','deer','dolphin','whale','snail','butterfly','hedgehog','fox','hippo','otter','rabbit','mouse']
 tb = Table(margin_x=1, margin_y=1, align='left', max_col_width=40)
 parser = argparse.ArgumentParser(description='Make cats say stuff.')
