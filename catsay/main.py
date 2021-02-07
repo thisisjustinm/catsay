@@ -22,8 +22,8 @@ def lolcatzify(text_to_lcfy):
     return soup.find(id='to').get_text()
 
 
-if args.myquote:
-    full_quote = str(args.myquote)
+if args.quote:
+    full_quote = str(args.quote)
     full_quote.capitalize()
 else:
     quote = ret_random_quote()
