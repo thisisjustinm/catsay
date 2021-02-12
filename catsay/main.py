@@ -34,7 +34,7 @@ if args.animal in animal_choices_list:
     animal_choice = args.animal
     animal = animals[animal_choice]
 else:
-    animal = animals['cat]
+    animal = animals['cat']
 
 
 def main():
